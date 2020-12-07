@@ -10,7 +10,7 @@ class Categories with ChangeNotifier {
   }
 
   Future<void> fetchItems() async {
-    const url = "http://bikehub.store/api/customer/menus";
+    const url = "https://bikehub.store/api/customer/menus";
 
     try {
       final response = await http.get(url);
